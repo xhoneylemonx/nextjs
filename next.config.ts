@@ -1,13 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  experimental: {
-    turbo: {
-      root: "C:/Users/Aomsin/Downloads/Works/nextjs01", // ใช้ key 'root' ไม่ใช่ 'rootDir'
-    },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true
   },
-  // เพิ่ม config อื่น ๆ ได้ เช่น reactStrictMode: true
   reactStrictMode: true,
-};
+  swcMinify: true
+}
 
-export default nextConfig;
+module.exports = nextConfig
