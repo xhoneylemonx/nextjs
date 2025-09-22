@@ -32,7 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
 
-        <h1 className="text-4xl  font-bold text-white">Computer Scrience</h1>
+        <h1 className="text-4xl  font-bold text-white">วะฮ่ะฮ่า</h1>
         <Navbar />
         {children}
         <Footer txt="© 2025 Computer Science. All rights reserved."/>
