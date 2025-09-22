@@ -35,7 +35,7 @@ export default function RootLayout({
         <h1 className="text-4xl  font-bold text-white">วะฮ่ะฮ่า</h1>
         <Navbar />
         {children}
-        <Footer txt="© 2025 Computer Science. All rights reserved."/>
+        <Footer txt="© 2025 Lnwza007. All rights reserved."/>
       </body>
     </html>
   );
