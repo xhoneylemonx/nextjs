@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-indigo-50 p-8">
       <header className="mb-8 text-center">
-        <h1 className="text-4xl font-bold text-indigo-700">Portfolio TCAS69 ของ Penelopy 🎓</h1>
+        <h1 className="text-4xl font-bold text-indigo-700">Portfolio TCAS69 ของ หม่าล่ากรุงไทย 🎓</h1>
         <p className="text-gray-600 mt-2">
           แบบฟอร์มสำหรับนักเรียนที่ต้องการยื่น Portfolio เพื่อสมัครมหาวิทยาลัยในระบบ TCAS69
         </p>

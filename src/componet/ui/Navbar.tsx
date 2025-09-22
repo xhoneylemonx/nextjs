@@ -1,12 +1,12 @@
 export default function Navbar() {
   return (
     <nav className="bg-white shadow-md">
-      <div className="max-w-5xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
+      <div className="max-w-7xl mx-auto px-2">
+        <div className="flex justify-between items-center h-7">
           <a href="/" className="text-indigo-600 font-bold text-xl">
             หม่าล่ากรุงไทย Portfolio
           </a>
-          <div className="flex space-x-4">
+          <div className="flex space-x-9">
             <a href="/" className="text-gray-700 hover:text-indigo-600 transition">Home</a>
             <a href="/about" className="text-gray-700 hover:text-indigo-600 transition">About</a>
             <a href="/contact" className="text-gray-700 hover:text-indigo-600 transition">Contact</a>
